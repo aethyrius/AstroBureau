@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; width: auto; height: auto; visibility: visible; background-color: rgba(95, 95, 95, 0.42); font-size: 14px; left: auto; align-items: auto; justify-content: flex-end; align-self: center;" />
+    <ui:TextField picking-mode="Ignore" value="Planet name..." style="align-items: stretch; flex-direction: column-reverse;" />
+    <ui:Slider label="Planet Size" high-value="10" show-input-field="false" style="justify-content: space-around; align-items: stretch; align-self: center; flex-direction: column;" />
+    <ui:Button text="Create Template" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+</ui:UXML>
